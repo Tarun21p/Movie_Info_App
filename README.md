@@ -73,4 +73,8 @@ Movie Cards with release year and imdb rating
 ![image](https://github.com/Tarun21p/Movie_Info_App/assets/127124654/f935562d-2d36-49be-bd48-daec664805d2)
 
 
+![image](https://github.com/Tarun21p/Movie_Info_App/assets/127124654/80b676d9-cb52-4b53-9a0d-dee839c4d305)
+
+
+
 
