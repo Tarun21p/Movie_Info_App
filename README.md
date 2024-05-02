@@ -59,3 +59,18 @@ Future Enhancements :
 2.	User Authentication: Implement user authentication for personalized experiences such as saving favorite movies and creating watchlists.
 3.	Additional APIs: Integrate additional APIs to enrich movie data with reviews, trailers, and recommendations.
 
+Output :
+
+Movie-Info-App Home Page  
+
+
+![image](https://github.com/Tarun21p/Movie_Info_App/assets/127124654/b56e170a-cf38-46c0-8568-585fed787223)
+
+
+Movie Cards with release year and imdb rating
+
+
+![image](https://github.com/Tarun21p/Movie_Info_App/assets/127124654/f935562d-2d36-49be-bd48-daec664805d2)
+
+
+
