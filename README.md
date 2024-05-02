@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Movie-Info-App is a user-friendly web application built with React.js that allows users to explore movie information quickly and efficiently. With MovieInfo, users can search for movies and view essential details such as release year and IMDb ratings.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+1.	Search Functionality: Easily search for movies by entering keywords in the search bar.
+2.	Visually Appealing Cards: Movie search results are presented in visually appealing cards for easy browsing.
+3.	Release Year Display: The release year of each movie is prominently displayed on the card.
+4.	IMDb Ratings: IMDb ratings are provided with one decimal point and a star symbol for quick reference.
+5.	Responsive Design: MovieInfo is designed to be responsive, ensuring optimal viewing across various devices and screen sizes.
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•	Frontend: React.js
+•	Styling: CSS
+•	API: The Movie Database (TMDb) API for fetching movie data
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Installation
 
-### `npm test`
+1.	Clone the repository from GitHub.
+2.	Navigate to the project directory.
+3.	Install dependencies using npm install.
+4.	Start the development server with npm start.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
 
-### `npm run build`
+1.	Open the application in a web browser.
+2.	Enter a movie title in the search bar and press Enter.
+3.	Movie information will be displayed in visually appealing cards.
+4.	Hover over a card to view detailed information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+MovieCard
+•	Description: Represents a single movie card containing basic movie information.
+•	Props: movie - An object containing movie details such as title, release date, poster path, and IMDb rating.
+•	Functionality: Displays the movie's release year and IMDb rating in a visually appealing layout.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+App
 
-### `npm run eject`
+•	Description: The main component that renders the entire application.
+•	Functionality: Handles user input and search functionality. Displays search results as MovieCard components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+API Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application utilizes the TMDb API to fetch movie data. Users need to sign up for a TMDb account and obtain an API key to use this service.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Directory Structure
+MovieInfo/ |-- src/ | |-- components/ | | |-- MovieCard.js | |-- App.js | |-- App.css |-- public/ | |-- index.html |-- package.json |-- README.md 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Deployment
 
-## Learn More
+Deploy the application to platforms such as GitHub Pages, Netlify, or Vercel for easy access by users.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Future Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1.	Detailed Movie Information: Expand the application to display more comprehensive movie details such as cast, crew, plot summary, etc.
+2.	User Authentication: Implement user authentication for personalized experiences such as saving favorite movies and creating watchlists.
+3.	Additional APIs: Integrate additional APIs to enrich movie data with reviews, trailers, and recommendations.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
